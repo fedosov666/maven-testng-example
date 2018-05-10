@@ -1,9 +1,7 @@
 package com.mycompany.app;
 
-import io.qameta.allure.Feature;
 import org.testng.annotations.Test;
 
-@Feature("Second tests")
 public class Test2 {
 
   @Test

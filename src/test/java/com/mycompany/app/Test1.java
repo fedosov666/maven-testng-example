@@ -1,11 +1,9 @@
 package com.mycompany.app;
 
-import io.qameta.allure.Feature;
-import io.qameta.allure.Issue;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import ru.yandex.qatools.allure.annotations.Issue;
 
-@Feature("First tests")
 public class Test1 {
 
   @Test
