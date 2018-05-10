@@ -10,6 +10,7 @@
 
   <properties>
     <aspectj.version>1.8.10</aspectj.version>
+    <suite>suite1.xml</suite>
   </properties>
 
   <dependencies>
@@ -52,6 +53,9 @@
               <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
             </property>
           </properties>
+          <suiteXmlFiles>
+            <suiteXmlFile>suites/${suite}</suiteXmlFile>
+          </suiteXmlFiles>
         </configuration>
         <dependencies>
           <dependency>
