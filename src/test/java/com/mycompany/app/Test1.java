@@ -32,7 +32,7 @@ public class Test1 {
   @Test
   public void test5(){
     System.out.println("Running test 5");
-    Assert.assertTrue(false);
+    throw new RuntimeException();
   }
 
   @Test
